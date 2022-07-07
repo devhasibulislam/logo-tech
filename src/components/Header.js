@@ -8,7 +8,7 @@ const Header = () => {
                 <div>
                     <img src={logo} alt="site logo" />
                 </div>
-                <div className='text-white flex gap-x-8'>
+                <div className='text-white flex lg:gap-x-8 md:gap-x-6 gap-x-3'>
                     <a className='border-b-2 border-transparent hover:border-b-2 hover:border-b-white rounded-bl duration-500' href="/">Home</a>
                     <a className='border-b-2 border-transparent hover:border-b-2 hover:border-b-white rounded-bl duration-500' href="/">Service</a>
                     <a className='border-b-2 border-transparent hover:border-b-2 hover:border-b-white rounded-bl duration-500' href="/">Portfolio</a>
