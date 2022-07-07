@@ -33,7 +33,7 @@ const Services = () => {
 
     return (
         <section
-            className='pb-24'
+            className='pb-24 my-20'
             id='service-section'
         >
             <div className='container mx-auto'>
@@ -63,7 +63,7 @@ const Services = () => {
                                 <h5 className='font-bold'>{service?.title}</h5>
                             </div>
                             <div>
-                                <p className='text-sm'>{service?.detail}</p>
+                                <p className='text-sm text-justify'>{service?.detail}</p>
                             </div>
                         </div>)
                     }
