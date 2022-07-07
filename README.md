@@ -8,7 +8,7 @@
 ## Get to own
 `make sure have VSCODE installed`
 ```bash
-https://github.com/hasibulislam999/logo-tech.git
+git clone https://github.com/hasibulislam999/logo-tech.git
 cd logo-tech
 npm install
 code .
