@@ -819,10 +819,10 @@ const TeamSlider = () => {
                                             <p className='text-sm'>{member.designation}</p>
                                         </div>
                                         <div className='mt-2'>
-                                            <a href={member.social.facebook} rel='noreferrer'><i className="mx-2 text-[23px] fa fa-facebook-square" aria-hidden="true"></i></a>
-                                            <a href={member.social.twitter} rel='noreferrer'><i className="mx-2 text-[23px] fa fa-twitter" aria-hidden="true"></i></a>
-                                            <a href={member.social.linkedin} rel='noreferrer'><i className="mx-2 text-[23px] fa fa-linkedin-square" aria-hidden="true"></i></a>
-                                            <a href={member.social.github} rel='noreferrer'><i className="mx-2 text-[23px] fa fa-github" aria-hidden="true"></i></a>
+                                            <a href={member.social.facebook} rel='noreferrer'><i className="mx-2 text-[23px] fa fa-facebook-square" aria-hidden="true"></i> </a>
+                                            <a href={member.social.twitter} rel='noreferrer'><i className="mx-2 text-[23px] fa fa-twitter" aria-hidden="true"></i> </a>
+                                            <a href={member.social.linkedin} rel='noreferrer'><i className="mx-2 text-[23px] fa fa-linkedin-square" aria-hidden="true"></i> </a>
+                                            <a href={member.social.github} rel='noreferrer'><i className="mx-2 text-[23px] fa fa-github" aria-hidden="true"></i> </a>
                                         </div>
                                     </div>
                                 </div>
