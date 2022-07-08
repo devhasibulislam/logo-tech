@@ -41,10 +41,10 @@ const Portfolio = () => {
         >
             <div className='container mx-auto'>
                 <div className='lg:mx-0 mx-4'>
-                    <div className='flex justify-between'>
+                    <div className='flex lg:justify-between lg:flex-row flex-col lg:mx-0 mx-2 lg:mb-0 mb-4'>
                         <div>
-                            <div className='mb-2'>
-                                <h5 className='text-[20px]'>Our Portfolio</h5>
+                            <div className='mb-4'>
+                                <h5 className='text-[20px] border-b-2 border-b-[#00b3ff] w-fit'>Our Portfolio</h5>
                             </div>
                             <div className='mb-12'>
                                 <h3 className='text-3xl text-[#09B7E2]'>
