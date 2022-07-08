@@ -36,7 +36,10 @@ const FooterSection1 = () => {
     ];
 
     return (
-        <section className='mt-12 lg:mx-0 mx-4'>
+        <section
+            className='mt-12 lg:mx-0 mx-4'
+            id='footer-section'
+        >
             <div>
                 <div className='text-white'>
                     <div className='text-center mb-12'>
@@ -66,11 +69,11 @@ const FooterSection1 = () => {
                     </div>
                     <div className='mt-16'>
                         <div className='flex gap-x-3 justify-center'>
-                            <a className='border-b-2 border-transparent hover:border-b-2 hover:border-b-white rounded-bl duration-500' href="/">Home</a>
-                            <a className='border-b-2 border-transparent hover:border-b-2 hover:border-b-white rounded-bl duration-500' href="/">Service</a>
-                            <a className='border-b-2 border-transparent hover:border-b-2 hover:border-b-white rounded-bl duration-500' href="/">Portfolio</a>
-                            <a className='border-b-2 border-transparent hover:border-b-2 hover:border-b-white rounded-bl duration-500' href="/">Blog</a>
-                            <a className='border-b-2 border-transparent hover:border-b-2 hover:border-b-white rounded-bl duration-500' href="/">Company</a>
+                            <a className='border-b-2 border-transparent hover:border-b-2 hover:border-b-white rounded-bl duration-500' href="#banner-section">Home</a>
+                            <a className='border-b-2 border-transparent hover:border-b-2 hover:border-b-white rounded-bl duration-500' href="#service-section">Service</a>
+                            <a className='border-b-2 border-transparent hover:border-b-2 hover:border-b-white rounded-bl duration-500' href="#portfolio-section">Portfolio</a>
+                            <a className='border-b-2 border-transparent hover:border-b-2 hover:border-b-white rounded-bl duration-500' href="#testimonial-section">Blog</a>
+                            <a className='border-b-2 border-transparent hover:border-b-2 hover:border-b-white rounded-bl duration-500' href="#team-section">Company</a>
                         </div>
                     </div>
                 </div>

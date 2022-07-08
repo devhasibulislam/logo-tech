@@ -88,6 +88,7 @@ const TestimonialSlider = () => {
         <section
             style={{ backgroundImage: `url(${testimonial})` }}
             className='bg-no-repeat bg-cover py-24 my-20'
+            id='testimonial-section'
         >
             <div className='container mx-auto'>
                 <div className='flex lg:justify-between lg:flex-row flex-col lg:mx-0 mx-2 lg:mb-0 mb-4'>

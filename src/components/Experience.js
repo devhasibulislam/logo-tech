@@ -1,7 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import experience from '../assets/svg/experience-bg.svg';
+import Contact from './Contact';
+import Modal from './Modal';
 
 const Experience = () => {
+    const [showModalContact, setShowModalContact] = useState(false);
+    const contact = 'Contact form';
+
     return (
         <section
             id='experience-section'
@@ -26,7 +31,7 @@ const Experience = () => {
                             </p>
                         </div>
                         <div className=''>
-                            <button className='py-2 px-4 rounded bg-[#00B3FF] border border-transparent hover:border hover:border-white hover:bg-transparent duration-500'>Contact us</button>
+                            <button className='py-2 px-4 rounded bg-[#00B3FF] border border-transparent hover:border hover:border-white hover:bg-transparent duration-500' onClick={() => setShowModalContact(true)}>Contact us</button>
                         </div>
                     </div>
                     <div className='relative lg:block hidden'>
@@ -73,6 +78,18 @@ const Experience = () => {
                     </div>
                 </div>
             </div>
+            {
+                showModalContact &&
+                <Modal
+                    showModal={showModalContact}
+                    setShowModal={setShowModalContact}
+                    title={contact}
+                    content={<Contact
+                        showModalContact={showModalContact}
+                        setShowModalContact={setShowModalContact}
+                    />}
+                />
+            }
         </section>
     );
 };

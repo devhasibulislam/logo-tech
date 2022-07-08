@@ -779,7 +779,10 @@ const TeamSlider = () => {
     };
 
     return (
-        <section className='py-24 my-20'>
+        <section 
+        className='py-24 my-20'
+        id='team-section'
+        >
             <div className='container mx-auto'>
                 <div className='flex lg:justify-between lg:flex-row flex-col lg:mx-0 mx-2 lg:mb-0 mb-4'>
                     <div>
