@@ -1,6 +1,7 @@
 import './App.css';
 import Banner from './components/Banner';
 import Experience from './components/Experience';
+import Footer from './components/Footer';
 import Portfolio from './components/Portfolio';
 import Services from './components/Services';
 import TeamSlider from './components/TeamSlider';
@@ -15,6 +16,7 @@ function App() {
       <Portfolio />
       <TestimonialSlider />
       <TeamSlider />
+      <Footer />
     </section>
   );
 }
