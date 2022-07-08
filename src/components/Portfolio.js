@@ -60,7 +60,7 @@ const Portfolio = () => {
                             className='bg-no-repeat bg-cover bg-center rounded-md text-white flex flex-col justify-center items-center relative lg:py-0 py-4 lg:mb-0 mb-4'
                         >
                             <div id='foreground-bg'></div>
-                            <h3 className='font-bold text-2xl z-[1]'>{pofos[0].title}</h3>
+                            <h3 className='font-bold text-2xl z-[1] text-center'>{pofos[0].title}</h3>
                             <p className='z-[1] text-center'>{pofos[0].desc}</p>
                         </div>
                         <div>
@@ -73,11 +73,11 @@ const Portfolio = () => {
                                             key={index}
                                             className={`flex ${index !== (pofos.length - 2) && 'mb-4'}`}
                                         >
-                                            <div className='mr-2'>
+                                            <div className='mr-2 overflow-hidden rounded-lg'>
                                                 <img
                                                     src={pofo.thumb}
                                                     alt={`portfolio${index + 1}`}
-                                                    className=''
+                                                    className='duration-500 hover:scale-105'
                                                 />
                                             </div>
                                             <div className='ml-2'>

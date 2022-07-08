@@ -805,9 +805,9 @@ const TeamSlider = () => {
                         {
                             members.map((member, index) => <div
                                 key={index}
-                                className='mx-2'
+                                className='mx-2 my-3'
                             >
-                                <div className='rounded-2xl py-4 border w-fit'>
+                                <div className='rounded-2xl py-4 border w-fit hover:shadow hover:border-transparent duration-500'>
                                     <div>
                                         <img src={member.avatar} alt={`avatar${index}`} className='mx-auto' />
                                     </div>

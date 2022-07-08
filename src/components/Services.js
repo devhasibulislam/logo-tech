@@ -59,8 +59,8 @@ const Services = () => {
                                     <img src={service?.icon} alt="service logo" />
                                 </div>
                             </div>
-                            <div className='mb-2'>
-                                <h5 className='font-bold'>{service?.title}</h5>
+                            <div className='mb-2 text-right'>
+                                <h5 className='font-bold whitespace-nowrap'>{service?.title}</h5>
                             </div>
                             <div>
                                 <p className='text-sm text-justify'>{service?.detail}</p>
