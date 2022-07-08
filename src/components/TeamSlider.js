@@ -779,9 +779,9 @@ const TeamSlider = () => {
     };
 
     return (
-        <section 
-        className='py-24 my-20'
-        id='team-section'
+        <section
+            className='py-24 my-20'
+            id='team-section'
         >
             <div className='container mx-auto'>
                 <div className='flex lg:justify-between lg:flex-row flex-col lg:mx-0 mx-2 lg:mb-0 mb-4'>
@@ -795,9 +795,6 @@ const TeamSlider = () => {
                             </h3>
                         </div>
                     </div>
-                    <div>
-                        <button className='py-2 px-4 rounded bg-[#00B3FF] border border-transparent hover:border hover:border-[#00B3FF] hover:bg-transparent duration-500 text-white hover:text-black'>View All</button>
-                    </div>
                 </div>
                 <div>
                     <Carousel
@@ -807,8 +804,8 @@ const TeamSlider = () => {
                     >
                         {
                             members.map((member, index) => <div
-                            key={index}
-                            className='mx-2'
+                                key={index}
+                                className='mx-2'
                             >
                                 <div className='rounded-2xl py-4 border w-fit'>
                                     <div>
@@ -822,10 +819,10 @@ const TeamSlider = () => {
                                             <p className='text-sm'>{member.designation}</p>
                                         </div>
                                         <div className='mt-2'>
-                                            <a href={member.social.facebook} rel='noreferrer'><i className="mx-2 text-[23px] fa fa-facebook-square" aria-hidden="true"></i> </a>
-                                            <a href={member.social.twitter} rel='noreferrer'><i className="mx-2 text-[23px] fa fa-twitter" aria-hidden="true"></i> </a>
-                                            <a href={member.social.linkedin} rel='noreferrer'><i className="mx-2 text-[23px] fa fa-linkedin-square" aria-hidden="true"></i> </a>
-                                            <a href={member.social.github} rel='noreferrer'><i className="mx-2 text-[23px] fa fa-github" aria-hidden="true"></i> </a>
+                                            <a href={member.social.facebook} target={'_blank'} rel='noreferrer'><i className="mx-2 text-[23px] fa fa-facebook-square" aria-hidden="true"></i> </a>
+                                            <a href={member.social.twitter} target={'_blank'} rel='noreferrer'><i className="mx-2 text-[23px] fa fa-twitter" aria-hidden="true"></i> </a>
+                                            <a href={member.social.linkedin} target={'_blank'} rel='noreferrer'><i className="mx-2 text-[23px] fa fa-linkedin-square" aria-hidden="true"></i> </a>
+                                            <a href={member.social.github} target={'_blank'} rel='noreferrer'><i className="mx-2 text-[23px] fa fa-github" aria-hidden="true"></i> </a>
                                         </div>
                                     </div>
                                 </div>

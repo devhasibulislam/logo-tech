@@ -53,9 +53,6 @@ const Portfolio = () => {
                                 </h3>
                             </div>
                         </div>
-                        <div>
-                            <button className='py-2 px-4 rounded bg-[#00B3FF] border border-transparent hover:border hover:border-[#00B3FF] hover:bg-transparent duration-500 text-white hover:text-black'>View All</button>
-                        </div>
                     </div>
                     <div className='grid lg:grid-cols-2 grid-cols-1 lg:gap-x-4 gap-y-4'>
                         <div

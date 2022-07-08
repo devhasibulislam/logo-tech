@@ -29,16 +29,16 @@ const BannerBody = () => {
                         <button className='py-2 px-4 rounded border border-white hover:border hover:border-transparent hover:bg-[#00B3FF] duration-500'><i className="fa fa-paper-plane" aria-hidden="true"></i> <span className='ml-2' onClick={() => setShowModalContact(true)}>Contact us</span></button>
                     </div>
                     <div className='flex gap-x-2 mt-4'>
-                        <a href="/" className='text-xl'>
+                        <a target={'_blank'} rel='noreferrer' href="https://github.com/hasibulislam999" className='text-xl'>
                             <i className="fa fa-github" aria-hidden="true"></i>
                         </a>
-                        <a href="/" className='text-xl'>
+                        <a target={'_blank'} rel='noreferrer' href="https://www.linkedin.com/in/hasibulislam999/" className='text-xl'>
                             <i className="fa fa-linkedin-square" aria-hidden="true"></i>
                         </a>
-                        <a href="/" className='text-xl'>
+                        <a target={'_blank'} rel='noreferrer' href="https://twitter.com/hasibulislam999" className='text-xl'>
                             <i className="fa fa-twitter" aria-hidden="true"></i>
                         </a>
-                        <a href="/" className='text-xl'>
+                        <a target={'_blank'} rel='noreferrer' href="https://www.facebook.com/hasibulislam999.dev" className='text-xl'>
                             <i className="fa fa-facebook-square" aria-hidden="true"></i>
                         </a>
                     </div>

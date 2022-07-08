@@ -103,9 +103,6 @@ const TestimonialSlider = () => {
                             </h3>
                         </div>
                     </div>
-                    <div>
-                        <button className='py-2 px-4 rounded bg-white border border-transparent hover:border hover:border-white hover:bg-transparent duration-500 text-black hover:text-white'>Swipe left or right</button>
-                    </div>
                 </div>
                 <div>
                     <Carousel
