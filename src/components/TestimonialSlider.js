@@ -110,7 +110,6 @@ const TestimonialSlider = () => {
                     <Carousel
                         swipeable='true'
                         responsive={responsive}
-                        infinite={true}
                     >
                         {
                             testimonials.map((testimonial, index) => <div
@@ -131,12 +130,12 @@ const TestimonialSlider = () => {
                                             {testimonial.feedback}
                                         </p>
                                     </div>
-                                    <div className='flex items-center'>
+                                    <div className='flex items-center bg-gray-200 py-2 px-3 rounded'>
                                         <div className='mr-2'>
                                             <img
                                                 src={avatar}
                                                 alt={`avatar${index}`}
-                                                className='h-[42px] w-[42px] object-cover rounded-full'
+                                                className='h-[42px] w-[42px] object-cover rounded-full shadow-md'
                                             />
                                         </div>
                                         <div className='ml-2'>
